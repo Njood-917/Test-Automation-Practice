@@ -1,0 +1,84 @@
+[INFO ] 2024-08-05 09:18:36.618 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.8.1.20240224[22m                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-08-05 09:18:36.621 [] ReportManager - Checking for engine updates...
+[INFO ] 2024-08-05 09:18:36.625 [] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2024-08-05 09:18:36.625 [] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2024-08-05 09:18:36.629 [main] ReportManager - TestNG run detected...
+[INFO ] 2024-08-05 09:18:36.796 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-08-05 09:18:36.812 [main] ReportManager - Initializing Important Links...
+[INFO ] 2024-08-05 09:18:36.815 [main] ReportManager - Initializing Properties...
+[INFO ] 2024-08-05 09:18:36.857 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of before method configuration method                                            
+                                                        'UI.ProductPageTest.beforeMethod'                                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-08-05 09:18:36.863 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-08-05 09:18:36.870 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized], extensions: [], prefs: {download.default_directory: C:\Users\nona5\IdeaProjects..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-08-05 09:18:36.871 [main] ReportManager - Attempting to run locally on: "Windows | Chrome".
+[INFO ] 2024-08-05 09:18:36.871 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2024-08-05 09:18:36.980 [] ReportManager - Loaded OpenCV "opencv_java490".
+[WARN ] 2024-08-05 09:18:38.155 [main] ReportManager - Aug 05, 2024 9:18:38 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2024-08-05 09:18:38.155 [main] ReportManager - WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 124; Please update to a Selenium version that supports CDP version 127
+[INFO ] 2024-08-05 09:18:38.160 [main] ReportManager - Successfully Opened: "Windows | Chrome".
+[INFO ] 2024-08-05 09:18:38.172 [main] ReportManager - Target URL: "https://www.saucedemo.com/"
+[INFO ] 2024-08-05 09:18:38.185 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-08-05 09:18:38.884 [] ReportManager - Engine Update check done for the day. 👍
+[INFO ] 2024-08-05 09:18:39.560 [main] ReportManager - Navigate to url "https://www.saucedemo.com/".
+[INFO ] 2024-08-05 09:18:39.562 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeMethod'
+[INFO ] 2024-08-05 09:18:39.599 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                                     Test Method: 'UI.ProductPageTest.TC08'                                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[DEBUG] 2024-08-05 09:18:39.669 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-08-05 09:18:39.712 [main] ReportManager - Type "standard_user" into "Username".
+[DEBUG] 2024-08-05 09:18:39.759 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-08-05 09:18:39.799 [main] ReportManager - Type "secret_sauce" into "Password".
+[INFO ] 2024-08-05 09:18:39.963 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-05 09:18:40.004 [main] ReportManager - Click "Login".
+[INFO ] 2024-08-05 09:18:40.151 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-05 09:18:40.178 [main] ReportManager - Click "By.xpath: //select[@class='product_sort_container']".
+[INFO ] 2024-08-05 09:18:40.227 [main] ReportManager - Click "Name (A to Z)".
+[INFO ] 2024-08-05 09:18:40.232 [main] ReportManager - Waiting for element to be present; elementLocator "By.cssSelector: .inventory_item:nth-of-type(1) .inventory_item_name", isExpectedToBeVisible"true"...
+[INFO ] 2024-08-05 09:18:40.257 [main] ReportManager - Wait to be ready "Waited for the element's state of visibility to be (true). Element locator (By.cssSelector: .inventory_item:nth-of-type(1) .inventory_item_name)" against "By.cssSelector: .inventory_item:nth-of-type(1) .inventory_item_name".
+[INFO ] 2024-08-05 09:18:40.279 [main] ReportManager - Get text "Sauce Labs Backpack" from "By.cssSelector: .inventory_item:nth-of-type(1) .inventory_item_name".
+[INFO ] 2024-08-05 09:18:40.415 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-05 09:18:40.440 [main] ReportManager - Click "By.xpath: //select[@class='product_sort_container']".
+[INFO ] 2024-08-05 09:18:40.480 [main] ReportManager - Click "Name (Z to A)".
+[INFO ] 2024-08-05 09:18:40.487 [main] ReportManager - Waiting for element to be present; elementLocator "By.cssSelector: .inventory_item:nth-of-type(1) .inventory_item_name", isExpectedToBeVisible"true"...
+[INFO ] 2024-08-05 09:18:40.508 [main] ReportManager - Wait to be ready "Waited for the element's state of visibility to be (true). Element locator (By.cssSelector: .inventory_item:nth-of-type(1) .inventory_item_name)" against "By.cssSelector: .inventory_item:nth-of-type(1) .inventory_item_name".
+[INFO ] 2024-08-05 09:18:40.527 [main] ReportManager - Get text "Test.allTheThings() T-Shirt (Red)" from "By.cssSelector: .inventory_item:nth-of-type(1) .inventory_item_name".
+[INFO ] 2024-08-05 09:18:40.528 [main] ReportManager - First item name (A to Z): Sauce Labs Backpack
+[INFO ] 2024-08-05 09:18:40.528 [main] ReportManager - First item name (Z to A): Test.allTheThings() T-Shirt (Red)
+[INFO ] 2024-08-05 09:18:40.531 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: TC08'
+[INFO ] 2024-08-05 09:18:40.531 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                          Finished Execution of Test Method: 'UI.ProductPageTest.TC08'                                          
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-08-05 09:18:40.538 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after method configuration method                                             
+                                                        'UI.ProductPageTest.afterMethod'                                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-08-05 09:18:40.648 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-08-05 09:18:40.650 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterMethod'
+[INFO ] 2024-08-05 09:18:40.653 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine tear down configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTearDown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-08-05 09:18:40.653 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'

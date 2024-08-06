@@ -1,0 +1,24 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                                     Test Method: 'UI.ProductPageTest.TC08'                                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Text cleared Using Native Clear @05-08-2024 09:18:39.0669 AM
+[ReportManager] Type "standard_user" into "Username". @05-08-2024 09:18:39.0712 AM
+[ReportManager] Text cleared Using Native Clear @05-08-2024 09:18:39.0759 AM
+[ReportManager] Type "secret_sauce" into "Password". @05-08-2024 09:18:39.0799 AM
+[ReportManager] Moved the mouse to the middle of the element. @05-08-2024 09:18:39.0963 AM
+[ReportManager] Click "Login". @05-08-2024 09:18:40.0004 AM
+[ReportManager] Moved the mouse to the middle of the element. @05-08-2024 09:18:40.0151 AM
+[ReportManager] Click "By.xpath: //select[@class='product_sort_container']". @05-08-2024 09:18:40.0178 AM
+[ReportManager] Click "Name (A to Z)". @05-08-2024 09:18:40.0227 AM
+[ReportManager] Waiting for element to be present; elementLocator "By.cssSelector: .inventory_item:nth-of-type(1) .inventory_item_name", isExpectedToBeVisible"true"... @05-08-2024 09:18:40.0232 AM
+[ReportManager] Wait to be ready "Waited for the element's state of visibility to be (true). Element locator (By.cssSelector: .inventory_item:nth-of-type(1) .inventory_item_name)" against "By.cssSelector: .inventory_item:nth-of-type(1) .inventory_item_name". @05-08-2024 09:18:40.0257 AM
+[ReportManager] Get text "Sauce Labs Backpack" from "By.cssSelector: .inventory_item:nth-of-type(1) .inventory_item_name". @05-08-2024 09:18:40.0279 AM
+[ReportManager] Moved the mouse to the middle of the element. @05-08-2024 09:18:40.0415 AM
+[ReportManager] Click "By.xpath: //select[@class='product_sort_container']". @05-08-2024 09:18:40.0440 AM
+[ReportManager] Click "Name (Z to A)". @05-08-2024 09:18:40.0480 AM
+[ReportManager] Waiting for element to be present; elementLocator "By.cssSelector: .inventory_item:nth-of-type(1) .inventory_item_name", isExpectedToBeVisible"true"... @05-08-2024 09:18:40.0486 AM
+[ReportManager] Wait to be ready "Waited for the element's state of visibility to be (true). Element locator (By.cssSelector: .inventory_item:nth-of-type(1) .inventory_item_name)" against "By.cssSelector: .inventory_item:nth-of-type(1) .inventory_item_name". @05-08-2024 09:18:40.0507 AM
+[ReportManager] Get text "Test.allTheThings() T-Shirt (Red)" from "By.cssSelector: .inventory_item:nth-of-type(1) .inventory_item_name". @05-08-2024 09:18:40.0527 AM

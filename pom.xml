@@ -19,7 +19,7 @@
     <dependency>
         <groupId>io.github.shafthq</groupId>
         <artifactId>SHAFT_ENGINE</artifactId>
-        <version>${shaft_engine.version}</version>
+        <version>8.3.20240813</version>
 
     </dependency>
     <!-- https://mvnrepository.com/artifact/org.testng/testng -->

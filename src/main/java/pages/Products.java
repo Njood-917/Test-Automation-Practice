@@ -59,12 +59,14 @@ public class Products extends Pages {
     }
 
     public String getProductName() {
+
         return driver.element().getText(productName);
     }
 
     public Cart goToCart() {
-
+        System.out.println( "before click ");
         driver.element().click(cartLink);
+        System.out.println( "after click");
         return new Cart(driver);
     }
 

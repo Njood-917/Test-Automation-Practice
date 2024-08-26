@@ -1,0 +1,8 @@
+[ReportManager] Setting "targetOperatingSystem" property with "windows". @26-08-2024 12:03:18.0492 PM
+[ReportManager] Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-debugging-pipe, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: C:\Users\nona5\IdeaProjects..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true} @26-08-2024 12:03:19.0030 PM
+[ReportManager] Attempting to run locally on: "Windows | Chrome". @26-08-2024 12:03:19.0035 PM
+[ReportManager] Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection... @26-08-2024 12:03:19.0042 PM
+[ReportManager] Successfully Opened: "Windows | Chrome". @26-08-2024 12:03:20.0683 PM
+[ReportManager] Target URL: "https://www.saucedemo.com/" @26-08-2024 12:03:20.0703 PM
+[ReportManager] Initial URL: "about:blank" @26-08-2024 12:03:20.0730 PM
+[ReportManager] Navigate to url "https://www.saucedemo.com/". @26-08-2024 12:03:22.0187 PM

@@ -1,0 +1,76 @@
+[INFO ] 2024-08-26 12:03:18.010 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.8.3.20240813[22m                                                    
+                                   Visit SHAFT's user guide [4mhttps://shafthq.github.io/[24m to learn more                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-08-26 12:03:18.016 [] ReportManager - Checking for engine updates...
+[INFO ] 2024-08-26 12:03:18.023 [] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2024-08-26 12:03:18.031 [] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2024-08-26 12:03:18.032 [main] ReportManager - TestNG run detected...
+[INFO ] 2024-08-26 12:03:18.393 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-08-26 12:03:18.408 [main] ReportManager - Initializing Properties...
+[INFO ] 2024-08-26 12:03:18.481 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                            Starting execution of before method configuration method                                            
+                                                       'UI.CheckoutPageTest.beforeMethod'                                                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-08-26 12:03:18.492 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-08-26 12:03:18.831 [] ReportManager - Loaded OpenCV "opencv_java490".
+[INFO ] 2024-08-26 12:03:19.030 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-debugging-pipe, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: C:\Users\nona5\IdeaProjects..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-08-26 12:03:19.039 [main] ReportManager - Attempting to run locally on: "Windows | Chrome".
+[INFO ] 2024-08-26 12:03:19.042 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2024-08-26 12:03:20.685 [main] ReportManager - Successfully Opened: "Windows | Chrome".
+[INFO ] 2024-08-26 12:03:20.703 [main] ReportManager - Target URL: "https://www.saucedemo.com/"
+[INFO ] 2024-08-26 12:03:20.730 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-08-26 12:03:21.224 [] ReportManager - Engine Update check done for the day. 👍
+[INFO ] 2024-08-26 12:03:22.187 [main] ReportManager - Navigate to url "https://www.saucedemo.com/".
+[INFO ] 2024-08-26 12:03:22.200 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: beforeMethod'
+[INFO ] 2024-08-26 12:03:22.297 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                                     Test Method: 'UI.CheckoutPageTest.TC11'                                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[DEBUG] 2024-08-26 12:03:22.481 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-08-26 12:03:22.582 [main] ReportManager - Type "standard_user" into "Username".
+[DEBUG] 2024-08-26 12:03:22.691 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-08-26 12:03:22.769 [main] ReportManager - Type "secret_sauce" into "Password".
+[INFO ] 2024-08-26 12:03:22.983 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-26 12:03:23.121 [main] ReportManager - Click "Login".
+[INFO ] 2024-08-26 12:03:23.124 [main] ReportManager - before click 
+[INFO ] 2024-08-26 12:03:23.354 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-08-26 12:03:23.437 [main] ReportManager - Click "By.className: shopping_cart_link".
+[INFO ] 2024-08-26 12:03:23.439 [main] ReportManager - after click
+[INFO ] 2024-08-26 12:03:23.441 [main] ReportManager - hello
+[INFO ] 2024-08-26 12:03:23.572 [main] ReportManager - Is element displayed "Checkout".
+[INFO ] 2024-08-26 12:03:24.032 [main] ReportManager - Click "Checkout".
+[INFO ] 2024-08-26 12:03:24.081 [main] ReportManager - hi
+[INFO ] 2024-08-26 12:03:24.087 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: TC11'
+[INFO ] 2024-08-26 12:03:24.089 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                          Finished Execution of Test Method: 'UI.CheckoutPageTest.TC11'                                          
+                                                              Test Status: 'Failed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-08-26 12:03:24.129 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of after method configuration method                                             
+                                                        'UI.CheckoutPageTest.afterMethod'                                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-08-26 12:03:24.374 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-08-26 12:03:24.378 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: afterMethod'
+[INFO ] 2024-08-26 12:03:24.386 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine tear down configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTearDown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-08-26 12:03:24.388 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'

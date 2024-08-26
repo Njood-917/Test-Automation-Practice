@@ -6,13 +6,15 @@ import org.openqa.selenium.By;
 public class Cart extends Pages{
     private final By cartItemName = By.className("inventory_item_name");
     private final By continueBtn = By.id("continue-shopping");
-    private final By checkoutBtn = By.id("checkout");
+    private final By checkoutBtn = By.xpath("//button [contains(@class,'checkout_button')]");
+
     public Cart(SHAFT.GUI.WebDriver driver) {
 
         super(driver);
     }
     public String getCartItemName(){
-       return driver.element().getText(cartItemName);
+
+        return driver.element().getText(cartItemName);
     }
     public boolean isProductInCart(String productName) {
         driver.element().waitToBeReady(cartItemName);
@@ -30,6 +32,13 @@ public class Cart extends Pages{
         driver.element().click(continueBtn);
         return new Products(driver);
 
+    }
+    public CheckoutPage goToCheckout() {
+        System.out.println( "hello");
+        driver.element().isElementDisplayed(checkoutBtn);
+        driver.getDriver().findElement(checkoutBtn).click();
+        System.out.println( "hi");
+        return new CheckoutPage(driver); // Returning a Checkout page object
     }
 
 }

@@ -1,0 +1,9 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                            Test Method: 'API.Requests.testSingleUser.getSingleUser'                                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Response status code: "200", status line: "HTTP/1.1 200 OK" @02-09-2024 13:49:54.0114 PM
+[ReportManager] Actual response status code "200" is successful (Between 200 and 299). @02-09-2024 13:49:54.0115 PM
+[ReportManager] Handle response; GET | Response Time: 685ms. @02-09-2024 13:49:54.0512 PM

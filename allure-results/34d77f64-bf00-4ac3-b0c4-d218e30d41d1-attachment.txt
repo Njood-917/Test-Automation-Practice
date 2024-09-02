@@ -1,0 +1,61 @@
+[INFO ] 2024-09-02 13:49:52.477 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.8.3.20240829[22m                                                    
+                                   Visit SHAFT's user guide [4mhttps://shafthq.github.io/[24m to learn more                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-02 13:49:52.479 [] ReportManager - Checking for engine updates...
+[INFO ] 2024-09-02 13:49:52.485 [main] ReportManager - TestNG run detected...
+[INFO ] 2024-09-02 13:49:52.487 [] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2024-09-02 13:49:52.483 [] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2024-09-02 13:49:52.703 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-02 13:49:52.714 [main] ReportManager - Initializing Properties...
+[INFO ] 2024-09-02 13:49:52.770 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                            Test Method: 'API.Requests.testSingleUser.getSingleUser'                                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-02 13:49:52.903 [] ReportManager - Loaded OpenCV "opencv_java490".
+[DEBUG] 2024-09-02 13:49:53.246 [main] cache - Couldn't find template in cache for "http-request.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-09-02 13:49:53.246 [main] cache - TemplateLoader.findTemplateSource("http-request.ftl"): Found
+[DEBUG] 2024-09-02 13:49:53.246 [main] cache - Loading template for "http-request.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nona5/.m2/repository/io/qameta/allure/allure-attachments/2.29.0/allure-attachments-2.29.0.jar!/tpl/http-request.ftl"
+[DEBUG] 2024-09-02 13:49:54.104 [main] cache - Couldn't find template in cache for "http-response.ftl"("en_US", UTF-8, parsed); will try to load it.
+[DEBUG] 2024-09-02 13:49:54.104 [main] cache - TemplateLoader.findTemplateSource("http-response.ftl"): Found
+[DEBUG] 2024-09-02 13:49:54.105 [main] cache - Loading template for "http-response.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/nona5/.m2/repository/io/qameta/allure/allure-attachments/2.29.0/allure-attachments-2.29.0.jar!/tpl/http-response.ftl"
+[INFO ] 2024-09-02 13:49:54.114 [main] ReportManager - Response status code: "200", status line: "HTTP/1.1 200 OK"
+[INFO ] 2024-09-02 13:49:54.115 [main] ReportManager - Actual response status code "200" is successful (Between 200 and 299).
+[INFO ] 2024-09-02 13:49:54.511 [] ReportManager - You're using the latest engine version "8.3.20240829". 👍
+[INFO ] 2024-09-02 13:49:54.512 [main] ReportManager - Handle response; GET | Response Time: 685ms.
+[INFO ] 2024-09-02 13:49:54.517 [main] ReportManager - {
+[INFO ] 2024-09-02 13:49:54.517 [main] ReportManager -     "data": {
+[INFO ] 2024-09-02 13:49:54.517 [main] ReportManager -         "id": 2,
+[INFO ] 2024-09-02 13:49:54.517 [main] ReportManager -         "email": "janet.weaver@reqres.in",
+[INFO ] 2024-09-02 13:49:54.518 [main] ReportManager -         "first_name": "Janet",
+[INFO ] 2024-09-02 13:49:54.518 [main] ReportManager -         "last_name": "Weaver",
+[INFO ] 2024-09-02 13:49:54.518 [main] ReportManager -         "avatar": "https://reqres.in/img/faces/2-image.jpg"
+[INFO ] 2024-09-02 13:49:54.518 [main] ReportManager -     },
+[INFO ] 2024-09-02 13:49:54.518 [main] ReportManager -     "support": {
+[INFO ] 2024-09-02 13:49:54.518 [main] ReportManager -         "url": "https://reqres.in/#support-heading",
+[INFO ] 2024-09-02 13:49:54.518 [main] ReportManager -         "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+[INFO ] 2024-09-02 13:49:54.518 [main] ReportManager -     }
+[INFO ] 2024-09-02 13:49:54.518 [main] ReportManager - }
+[INFO ] 2024-09-02 13:49:54.532 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: getSingleUser'
+[INFO ] 2024-09-02 13:49:54.532 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                 Finished Execution of Test Method: 'API.Requests.testSingleUser.getSingleUser'                                 
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-02 13:49:54.569 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine tear down configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTearDown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-02 13:49:54.570 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'

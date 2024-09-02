@@ -12,14 +12,14 @@
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <shaft_engine.version>8.3.20240813</shaft_engine.version>
+        <shaft_engine.version>8.3.20240829</shaft_engine.version>
     </properties>
 
     <dependencies>
     <dependency>
         <groupId>io.github.shafthq</groupId>
         <artifactId>SHAFT_ENGINE</artifactId>
-        <version>8.3.20240813</version>
+        <version>8.3.20240829</version>
 
     </dependency>
     <!-- https://mvnrepository.com/artifact/org.testng/testng -->

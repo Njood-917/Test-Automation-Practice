@@ -7,6 +7,9 @@ public class RequestBuilder {
     private RestActions api; // RestActions object to handle API requests
     private String serviceName; // The specific service endpoint
     private RestActions.RequestType requestType; // The type of the request (GET, POST, etc.)
+    private int expectedStatusCode = 200;
+
+
 
     /**
      * Constructor to initialize RequestBuilder with necessary parameters.
@@ -31,17 +34,23 @@ public class RequestBuilder {
         this.serviceName = serviceName;
         this.requestType = requestType;
     }
-
+    // Method to set the expected status code
+    public RequestBuilder setExpectedStatusCode(int statusCode) {
+        this.expectedStatusCode = statusCode;
+        return this;
+    }
     /**
      * Perform the API request with the specified request type and return the response.
      *
      * @return Response object containing the response data
      */
     public Response performRequest() {
-        // Build and perform the request
-        return api.buildNewRequest(serviceName, requestType)
-                .performRequest();
+       return api.buildNewRequest(serviceName, requestType)
+               .performRequest();
+
+
     }
+
 
     /**
      * Perform the API request with a request body (for POST, PUT, etc.) and return the response.
@@ -53,6 +62,9 @@ public class RequestBuilder {
         // Build the request, set the body, and perform the request
         return api.buildNewRequest(serviceName, requestType)
                 .setRequestBody(requestBody)
+                .addHeader("Content-Type", "application/json")
                 .performRequest();
     }
+
+
 }

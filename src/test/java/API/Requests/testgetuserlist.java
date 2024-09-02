@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class testgetuserlist {
     @Test
-    public void TC0() {
+    public void TC01() {
         // Initialize RequestBuilder with GET request type
         RequestBuilder requestBuilder =
                 new RequestBuilder("https://reqres.in",
